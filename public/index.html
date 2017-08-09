@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Steve's Spin/Mongo page</title>
+
+	<link rel="stylesheet" href="/assets/style/style.css" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+
+<body>
+	<div class='container'>
+	<h1>Steve's Spin News Page</h1>
+		<div class="btn-group btn-group-justified" role="group" aria-label="...">
+			<div class="btn-group" role="group">
+				<button type="button" class="btn btn-default showSaved" >Show Saved Stories</button>
+			</div>
+			<div class="btn-group" role="group">
+				<button type="button" class="btn btn-default showAllNotes">Show All Notes</button>
+			</div>
+			<div class="btn-group" role="group">
+				<button type="button" class="btn btn-default scrapeNew">Scrape New Articles</button>
+			</div>
+		</div>
+
+		<div>
+			<div class="displayItems">
+				
+			</div>
+		</div>
+	</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter Your Note on This Story</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="text" class="form-control noteText" placeholder="note" aria-describedby="basic-addon1">
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary saveNote">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  End Modal 
+ -->
+
+  	<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   	<script type="text/javascript" src="assets/scripts/script.js"></script>
+</body>
+</html>

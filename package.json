@@ -1,0 +1,30 @@
+{
+  "name": "home-work-16",
+  "version": "1.0.0",
+  "description": "web page scrape with mongo db",
+  "main": "server.js",
+  "scripts": {
+    "test": "server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scandrews/webscrapewmongo.git"
+  },
+  "keywords": [
+    "yo"
+  ],
+  "author": "scandrews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scandrews/webscrapewmongo/issues"
+  },
+  "homepage": "https://github.com/scandrews/webscrapewmongo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3",
+    "mongojs": "^2.4.0",
+    "request": "^2.81.0"
+  }
+}
